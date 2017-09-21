@@ -21,8 +21,10 @@ body{
     font-family: caption;
 }
 #bodyp{
-    line-height: 2;
+   line-height: 2;
     font-size: 22px;
+    text-align: justify;
+    
 }
 
 .container{

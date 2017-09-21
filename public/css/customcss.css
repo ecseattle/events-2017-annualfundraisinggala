@@ -1,0 +1,31 @@
+body{
+    /*background-color:rgb(73, 227, 109);*/
+    background: linear-gradient(green, yellow, red);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: "Trebuchet MS";
+    margin: 30px 0px 0px;
+}
+#titlep{
+    text-align: center;
+    font-size: 29px;
+    padding-right: 100px;
+    font-family: caption;
+}
+#titletext{
+    color: #d83826;
+    font-size: 46px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: caption;
+}
+#bodyp{
+    font-size: 20px;
+    font-family: caption;
+    font-weight: bolder;
+}
+
+
+
+

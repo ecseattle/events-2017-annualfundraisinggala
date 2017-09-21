@@ -25,7 +25,10 @@ body{
     font-family: caption;
     font-weight: bolder;
 }
-
+.container{
+    border:solid black 1px;
+    background-color: white;
+}
 
 
 

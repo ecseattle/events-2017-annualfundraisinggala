@@ -21,11 +21,8 @@ body{
     font-family: caption;
 }
 #bodyp{
-    width: 783px;
-    margin: 0px auto;
     line-height: 2;
     font-size: 22px;
-    text-align: justify;
 }
 
 .container{

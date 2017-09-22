@@ -21,7 +21,7 @@ body{
     line-height: 2;
     font-size: 22px;
     text-align: justify;
-    margin:0 auto;
+    margin: 10px 50px;
     font-family: "Trebuchet MS";
 }
 .main{
@@ -89,4 +89,15 @@ hr{
 }
 #blk{
     font-size: 20px;
+}
+#hrp{
+    margin: 10px 50px;
+}
+.footer{
+    display:block;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: justify;
+    margin:0 auto;
+    font-family: "Trebuchet MS";
 }

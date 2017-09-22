@@ -5,17 +5,24 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="public/css/customcss.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container main">
             <div class="row">
-                <div class="col-md-12">
-                    
+                <div class="col-md-4">
+                    <img id="logo" class="img-responsive" src="public/asset/logo.png"/>
+                </div>
+                <div class="col-md-8">
                     <p id="titlep" class="text-center">Ethiopian Community in Seattle <br/>
 presents</p>
-                    <h1 id="titletext" class="text-center">The 5<sup>th</sup> Annual ECS Fundraising Gala</h1>
+                    
                 </div>
+            </div>
+            <div class="col-md-12">
+                <h1 id="titletext" class="text-center">The 5<sup>th</sup> Annual ECS Fundraising Gala</h1>
             </div>
             <div class="row">
                 <div class="col-md-12">
@@ -28,18 +35,125 @@ presents</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <table class="table text-center">
-                        <tbody class="tbody">
-                            <tr>
-                                <td>Date:</td>
-                                <td>October 14th,2017</td>
-                            </tr>
-                        </tbody>
-                        
-                    </table>
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td id="red">Date:</td>
+                                    <td id="blk">October 14th,2017</td>
+                                </tr>
+                                <tr>
+                                    <td id="red">Location:</td>
+                                    <td id="blk">Emerald Downs Ballroom</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="blk">2300 Emerald Downs Dr</td>
+                                </tr>
+                                <tr>
+                                   <td></td>
+                                   <td id="blk">2300 Emerald Downs Dr</td> 
+                                </tr>
+                                <tr>
+                                    <td id="red">Time:</td>
+                                    <td id="blk">5:00PM - 10:00PM</td>
+                                </tr>
+                                <tr>
+                                    <td id="red">Ticket:</td>
+                                    <td id="blk">$100</td>
+                                </tr>
+                            </tbody>
+                                    
+                         </table>
+                        </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+               <!-- <div class="row">
+                    <div class="col-md-12">
+                        <hr/>
+                    </div>
+                </div>-->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="#" class="btn btn-info">Facebook</a>
+                        <a href="#" class="btn btn-info">Twitter</a>
+                        <a href="#" class="btn btn-info">Map</a>
+                        <a href="#" class="btn btn-danger">Buy Tickets</a>
+                        <a href="#" class="btn btn-danger">Donate</a>
+                    </div>
+                </div>
+                <div class="row bodynav">
+                    <div class="col-md-4">
+                        <ul class="nav nav-tabs-vertical text-center">
+                            <li class="active"><a data-toggle="tab" href="#programs">Programs</a></li>
+                            <li><a data-toggle="tab" href="#speakers">Speakers</a></li>
+                            <li><a data-toggle="tab" href="#sponsors">Sponsors</a></li>
+                            <li><a data-toggle="tab" href="#aboutecs">About ECS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="tab-content">
+                            <div id="programs" class="tab-pane fade in active">
+                              <h3>About the event</h3>
+                              <p>The purpose of this event is to raise funds to support the vital programs the Community Center provides to over 10,000 people. The fundraising Gala will be held on October 8th, 2016 at Emerald Downs Ballroom. Our goal is to raise at least $100,000. The event will encompass great Ethiopian food, entertainment, live auction, and a chance to experience the rich heritage and prominently acclaimed Ethiopian hospitality. </p><br><p>This event will also mark the ECS’s fourth major fundraising appeal since the acquisition of a building in September 2010. The building has become a source of pride for the great achievements the Center has accomplished to date and what it promises to offer in the future for the youth, elders, refugees, and all who are interested in learning and sharing the rich Ethiopian cultural experience.</p><br><p>Come and enjoy The ECS Annual Fundraising Gala to support the Center as it continues to improve and expand its services.</p>
+                            
+                            <div>
+                                <hr/>
+                            </div>
+                            <div>
+                                <h3>Cultural Music & Dinner</h3>
+                                <p>The event will kick-off with traditional Ethiopian music accompanied by a delicious Ethiopian dinner.</p>
+                            </div>
+                            <div>
+                                <hr/>
+                            </div>
+                            <div>
+                                <h3>Live & Silent Auction</h3>
+                                <p>The event will also encompass a silent and live auction with unique items and experiences such as Ethiopian arts and crafts including vacation packages.</p><br>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-info">Like</a>
+                                <a href="#" class="btn btn-info">Share</a>
+                                <a href="https://www.facebook.com/r.php?campaign_id=137675572948107&partner_id=events.ecseattle.org&placement=like_plugin&extra_1=http%3A%2F%2Fevents.ecseattle.org%2F&extra_2=US" target="_blank">sign up and see what your friends like</a>
+                            </div>
+                            <br>
+                                <p>For additional information call Metti at 206-325-0304 or visit us at <a href="www.ecseattle.org" target="_blank">ecseattle.org</a></p>
+                            </div>
+                            <div id="speakers" class="tab-pane fade">
+                              <h3>Speakers</h3>
+                              <p>Meklit’s music is imbued with poetry and multiplicity, from hybridized sounds of Tizita (haunting and nostalgic music) drawing from her Ethiopian heritage, to jazz, folk songs, hip-hop and art rock. She aptly describes her music as emanating from “in-between-spaces.”</p><p>
+
+Meklit has released two solo albums (with a third on the way), three collaborative albums, and is currently signed to Six Degrees Records. She is a TED Senior Fellow, and her TED talk, The Unexpected Beauty Of Everyday Sounds, has been watched by more than 1 million people. Meklit was a featured singer in both An African Tribute to James Brown - a project of musical legend, Pee Wee Ellis, as well as the UN Women Theme Song, One Woman.
+</p><p>
+In April 2016, Meklit was commissioned by Lincoln Center for the Performing Arts to compose the song cycle, There Is No Sound Barrier, and she is currently completing a commission from the prestigious MAP Fund for the composition of her Ethio-Jazz inspired work, This Was Made Here.
+
+Meklit has toured extensively across the US, UK, and East Africa at festivals and venues such as
+
+Bumbershoot Music Festival, SXSW, The Kennedy Center, Southbank Centre (London 2013 and 2015), Moods (Zurich), the Hollywood Bowl, the TED Conferences (Edinburgh, Rio di Janeiro, Long Beach), Monterey Jazz Festival, Baryshnikov Arts Center, Nuits D’Afrique (Montreal), SFJazz Center, the Gondar Castles, Blankets and Wine Music Festival (Nairobi) and many more.
+</p>
+                            </div>
+                            <div id="sponsors" class="tab-pane fade">
+                              <h3>Sponsors</h3>
+                              <p>Sponsor's info will be displaye soon.</p>
+                            </div>
+                            <div id="aboutecs" class="tab-pane fade">
+                              <h3>Mission</h3>
+                              <p>The Ethiopian Community in Seattle (ECS) is the first grassroots organization founded by Ethiopian immigrants residing in the Greater Seattle area.</p>
+                              <p>The Community’s mission is to make positive contributions to the social and cultural pools of the region by helping Ethiopian immigrants integrate well in their new home as well as assisting fellow Ethiopians and Ethiopian-Americans preserve their ancient and rich cultural heritage and share it with Seattle’s diverse society and the future generation.</p>
+                        <h3>History</h3>
+                        <p>In the early 1970s, a small group of community leaders envisioned a way to help Ethiopian refugees settle in - and integrate with - the communities in the region and preserve their cultural heritage. That vision led to the formation of the community organization in 1980.</p><br>
+                        <p>In 1987, the Community was incorporated as a 501(c)(3) nonprofit organization and established its Community Center 23 years later.</p><br>
+                        <p>The new center provided a venue for the Community to offer more services to its members and headquarter where educational and cultural activities could be organized. In addition to providing services and cultural experience sharing opportunities, the Ethiopian Community connects members and the community by regularly hosting monthly brunch and annual Family Fun Day events.</p>
+                        <p>The Ethiopian Community in Seattle strives to maintain a vibrant and active community that contributes to the society at large.</p><br>
+                        <p>To learn more, visit our website at: <a href="http://ecseattle.org/" target="_blank">ecseattle.org</a></p>
+                            </div>
+                    </div> 
                 </div>
             </div>
-        </div>
     </body>
 </html>

@@ -1,16 +1,12 @@
 body{
-    /*background-color:rgb(73, 227, 109);*/
     background: linear-gradient(green, yellow, red);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    font-family: "Trebuchet MS";
     margin: 30px 0px 0px;
 }
 #titlep{
+    
     text-align: center;
     font-size: 29px;
-    padding-right: 100px;
+    padding-right: 350px;
     font-family: caption;
 }
 #titletext{
@@ -21,16 +17,76 @@ body{
     font-family: caption;
 }
 #bodyp{
-   line-height: 2;
+    display:block;
+    line-height: 2;
     font-size: 22px;
     text-align: justify;
-    
+    margin:0 auto;
+    font-family: "Trebuchet MS";
 }
-
-.container{
+.main{
     border:solid black 1px;
     background-color: white;
+    margin:0 auto 30px;
+    box-shadow:rgb(0,0,0) 0px 0px 30px;
+}
+#logo{
+    width:150px;
+    float:right;
 }
 
-
-
+.bodynav{
+    border: 1px solid red;
+    margin: 20px 50px 20px;
+    padding:10px;
+}
+h3{
+    color:red;
+}
+li a{
+    color:red;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+}
+#programs p{
+    display:block;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: justify;
+    margin:0 auto;
+    font-family: "Trebuchet MS";
+}
+#speakers p{
+    display:block;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: justify;
+    margin:0 auto;
+    font-family: "Trebuchet MS";
+}
+#aboutecs p{
+    display:block;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: justify;
+    margin:0 auto;
+    font-family: "Trebuchet MS";
+}
+#sponsors p{
+    display:block;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: justify;
+    margin:0 auto;
+    font-family: "Trebuchet MS";
+}
+hr{
+    border:0.4px solid grey;
+}
+#red{
+    color:red;
+    font-size: 20px;
+}
+#blk{
+    font-size: 20px;
+}

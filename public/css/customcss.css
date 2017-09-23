@@ -83,11 +83,11 @@ li a{
 hr{
     border:0.4px solid grey;
 }
-#red{
+.red{
     color:red;
     font-size: 20px;
 }
-#blk{
+.blk{
     font-size: 20px;
 }
 #hrp{
@@ -101,6 +101,6 @@ hr{
     margin:0 auto;
     font-family: "Trebuchet MS";
 }
-#socialgrp{
+/*#socialgrp{
     display: inline;
-}
+}*/

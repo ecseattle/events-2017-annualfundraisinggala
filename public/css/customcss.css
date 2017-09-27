@@ -79,9 +79,10 @@ li a{
     text-align: justify;
     margin:0 auto;
     font-family: "Trebuchet MS";
+   
 }
 hr{
-    border:0.4px solid grey;
+    border:0.2px solid grey;
 }
 .red{
     color:#D83826;
@@ -108,22 +109,8 @@ hr{
 .table>thead>tr>td,
 .table>thead>tr>th {
     padding: 8px;
-    line-height: 1.42857143;
+    line-height: 1.0;
     vertical-align: top;
     border-top: 0px solid #ddd;
 }
-ul li{
-    list-style: none;
-}
-li{
-    line-height: 1.5;
-    font-size: 16px;
-    font-family: "Trebuchet MS";
-}
-span{
-    color:#D83826;
-    font-size: 20px;
-}
-.ind{
-    text-indent: 50px;
-}
+

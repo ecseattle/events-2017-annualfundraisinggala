@@ -122,4 +122,6 @@ hr{
     vertical-align: top;
     border-top: 0px solid #ddd;
 }
-
+span{
+    font-weight: bold;
+}

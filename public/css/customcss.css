@@ -140,3 +140,8 @@ span{
     padding:10px;
     margin:20px auto;
 }
+.sponsor-title{
+    /*background-color: lightgreen;*/
+    background: linear-gradient(green, yellow, red);
+    padding: 20px;
+}
